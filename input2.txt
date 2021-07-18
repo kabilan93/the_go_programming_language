@@ -1,0 +1,9 @@
+this is input text 2 with 5 similarities
+this is input text 2 with 5 similarities
+this is input text 2 with 5 similarities
+this is input text wasdasdasd split over 2 files
+this is input text wasdasdasd split over 2 files
+this is input text wasdasdasd split over 2 files
+this is input text wasdasdasds
+this is input text 2 with 5 similarities
+this is input text 2 with 5 similarities

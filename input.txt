@@ -1,0 +1,12 @@
+this is input text 1 with 4 similarities
+this is input text 1 with 4 similarities
+this is input text 1 with 4 similarities
+this is input text 1 with 4 similarities
+this is input text wasdasdasd
+this is input text wasdasdasd split over 2 files
+this is input text wasdasdasd split over 2 files
+this is input text wasdasdasd split over 2 files
+this is input text wasdasdasd split over 2 files
+this is input text wasdasdasd split over 2 files
+this is input text wasdasdasd split over 2 files
+this is input text wasdasdasd split over 2 files
