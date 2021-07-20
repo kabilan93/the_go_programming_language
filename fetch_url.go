@@ -30,6 +30,9 @@ func main() {
 		//1.7
 		body, err := io.Copy(os.Stdout, resp.Body)
 
+		//1.9
+		code := resp.StatusCode
+
 		// body, err := ioutil.ReadAll(resp.Body)
 		// resp.Body.Close()
 		//handle error with reading response body
@@ -37,6 +40,8 @@ func main() {
 			fmt.Fprintf(os.Stderr, "fetch: reading %s: %v\n", url, err)
 			os.Exit(1)
 		}
-		fmt.Printf(string(rune(body)))
+
+		fmt.Println(code)
+		fmt.Println("\n", string(rune(body)))
 	}
 }
