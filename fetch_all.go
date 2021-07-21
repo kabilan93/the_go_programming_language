@@ -47,7 +47,7 @@ func fetch(url string, ch chan<- string) {
 
 	// write url output to file
 	filename := strings.Split(url, "://")[1] + ".txt"
-	fmt.Println("test", filename)
+
 	wfErr := os.WriteFile("./"+filename, b, 0644)
 	if wfErr != nil {
 		ch <- fmt.Sprintf("while reading %s: %v", url, wfErr)
@@ -56,6 +56,6 @@ func fetch(url string, ch chan<- string) {
 
 	secs := time.Since(start).Seconds()
 	//ch <- fmt.Sprintf("%.2fs %7d %s", secs, nBytes, url) // write the output into the channel
-	ch <- fmt.Sprintf("%.2fs %s \n %7d", secs, url, len(b)) // write the output into the channel
+	ch <- fmt.Sprintf("%.2fs %s %7d", secs, url, len(b)) // write the output into the channel
 
 }
